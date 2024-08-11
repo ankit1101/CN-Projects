@@ -1,0 +1,43 @@
+.display {
+    background-color: cadetblue;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+#time {
+    color: rgb(0, 34, 255);
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 16px;
+}
+
+#start-btn, #stop-btn, #reset-btn {
+    border-radius: 10px;
+    background-color: darksalmon;
+    width: 80px;
+    height: 25px;
+    align-content: center;
+}
+
+#start-btn:hover, #reset-btn:hover {
+    color: rgb(23, 151, 23);
+    cursor: pointer;
+}
+
+#stop-btn:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    cursor: pointer;
+    color: rgb(223, 226, 47);
+}
